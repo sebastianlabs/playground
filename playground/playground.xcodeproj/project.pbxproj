@@ -246,6 +246,7 @@
 				218320EB1FAE969E0074B2D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
