@@ -8,37 +8,15 @@
 
 #include <iostream>
 #include <string>
-#include <vector>
+#include "VecFun.hpp"
 
 using namespace std;
 
-void printOut(vector<int> print){
-    vector<int>::iterator it;
-    it = print.begin();
-    
-    for(int i=0; i<print.size(); i++){
-        printf("element at pos %d is %d\n", i, *it);
-        ++it;
-    }
-}
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> vec = {1,2,3,4,5,6,7,8,9,10};
-    
-    vector<int>::iterator it;
-    it = vec.begin();
-    
-    printOut(vec);
-    
-    //turn everything around
-    printf("\nturn everything around\n\n");
-    
-    reverse(vec.begin(), vec.end());
-    
-    printOut(vec);
-    
-    
+    VecFun vecTest;
+    vecTest.run();
     
     return 0;
 }

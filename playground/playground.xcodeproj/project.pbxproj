@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		216F26EE1FB0F4D000961E0F /* VecFun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216F26EC1FB0F4D000961E0F /* VecFun.cpp */; };
 		218320E61FAE969E0074B2D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 218320E51FAE969E0074B2D3 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		216F26EC1FB0F4D000961E0F /* VecFun.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VecFun.cpp; sourceTree = "<group>"; };
+		216F26ED1FB0F4D000961E0F /* VecFun.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VecFun.hpp; sourceTree = "<group>"; };
 		218320E21FAE969E0074B2D3 /* playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = playground; sourceTree = BUILT_PRODUCTS_DIR; };
 		218320E51FAE969E0074B2D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				218320E51FAE969E0074B2D3 /* main.cpp */,
+				216F26EC1FB0F4D000961E0F /* VecFun.cpp */,
+				216F26ED1FB0F4D000961E0F /* VecFun.hpp */,
 			);
 			path = playground;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216F26EE1FB0F4D000961E0F /* VecFun.cpp in Sources */,
 				218320E61FAE969E0074B2D3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
