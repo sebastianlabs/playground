@@ -9,14 +9,18 @@
 #include <iostream>
 #include <string>
 #include "VecFun.hpp"
+#include "FileFun.hpp"
 
 using namespace std;
 
 
 int main(int argc, const char * argv[]) {
     
-    VecFun vecTest;
-    vecTest.run();
+//    VecFun vecTest;
+//    vecTest.run();
+
+    FileFun ff("/Users/str0be/git/playground/playground/playground/scores.txt");
+    ff.run();
     
     return 0;
 }
