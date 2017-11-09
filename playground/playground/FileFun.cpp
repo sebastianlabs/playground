@@ -26,13 +26,12 @@ FileFun::FileFun(FileFun & ff){
 void FileFun::run(){
     
     if(_filePath.length() > 0){
-        
+        vector<std::string> names;
+        vector<double> grades;
         _stream.open(_filePath);
         if(_stream.is_open()){
             std::string delimiter = " ";
             
-            vector<std::string> names;
-            vector<double> grades;
             long posDelimiter=0;
             string line = "";
             
@@ -43,5 +42,23 @@ void FileFun::run(){
                 grades.push_back(grade);
             }
         }else cout<<"file is empty or does not exist";
+        
+        printf("average grade is: %f\n", average(grades));
     }
+}
+
+double FileFun::average(vector<double>& vec1){
+    double average = 0;
+    
+    if(vec1.size() > 0){
+        vector<double>::iterator it;
+        it = vec1.begin();
+        
+        while(it != vec1.end()){
+            average += (*it);
+            it++;
+        }
+        return average/vec1.size();
+    }
+    return 0;
 }

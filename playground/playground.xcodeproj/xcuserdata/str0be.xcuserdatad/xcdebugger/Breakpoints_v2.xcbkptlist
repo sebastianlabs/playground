@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "playground/FileFun.hpp"
-            timestampString = "531711497.198678"
+            timestampString = "531876671.616652"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "class FileFun"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "FileFun"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>

@@ -10,6 +10,7 @@
 		216F26EE1FB0F4D000961E0F /* VecFun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216F26EC1FB0F4D000961E0F /* VecFun.cpp */; };
 		218320E61FAE969E0074B2D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 218320E51FAE969E0074B2D3 /* main.cpp */; };
 		21C18C151FB136590050CDC4 /* FileFun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21C18C131FB136590050CDC4 /* FileFun.cpp */; };
+		21ED0B701FB38F25008BB0E9 /* MapFun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21ED0B6E1FB38F25008BB0E9 /* MapFun.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		218320E51FAE969E0074B2D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		21C18C131FB136590050CDC4 /* FileFun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileFun.cpp; sourceTree = "<group>"; };
 		21C18C141FB136590050CDC4 /* FileFun.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileFun.hpp; sourceTree = "<group>"; };
+		21ED0B6E1FB38F25008BB0E9 /* MapFun.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MapFun.cpp; sourceTree = "<group>"; };
+		21ED0B6F1FB38F25008BB0E9 /* MapFun.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MapFun.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		218320E41FAE969E0074B2D3 /* playground */ = {
 			isa = PBXGroup;
 			children = (
+				21ED0B6E1FB38F25008BB0E9 /* MapFun.cpp */,
+				21ED0B6F1FB38F25008BB0E9 /* MapFun.hpp */,
 				21C18C131FB136590050CDC4 /* FileFun.cpp */,
 				21C18C141FB136590050CDC4 /* FileFun.hpp */,
 				218320E51FAE969E0074B2D3 /* main.cpp */,
@@ -98,7 +103,7 @@
 		218320DA1FAE969E0074B2D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Sebastian Labs";
 				TargetAttributes = {
 					218320E11FAE969E0074B2D3 = {
@@ -131,6 +136,7 @@
 			files = (
 				21C18C151FB136590050CDC4 /* FileFun.cpp in Sources */,
 				216F26EE1FB0F4D000961E0F /* VecFun.cpp in Sources */,
+				21ED0B701FB38F25008BB0E9 /* MapFun.cpp in Sources */,
 				218320E61FAE969E0074B2D3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +153,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -155,7 +163,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -194,7 +206,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -202,7 +216,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

@@ -24,6 +24,7 @@ public:
     FileFun(const string & filePath);
     FileFun(FileFun & ff);
     void run();
+    double average(vector<double>& vec1);
 };
 
 #endif /* FileFun_hpp */

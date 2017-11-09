@@ -10,6 +10,7 @@
 #include <string>
 #include "VecFun.hpp"
 #include "FileFun.hpp"
+#include "MapFun.hpp"
 
 using namespace std;
 
@@ -19,9 +20,14 @@ int main(int argc, const char * argv[]) {
 //    VecFun vecTest;
 //    vecTest.run();
 
-    FileFun ff("/Users/str0be/git/playground/playground/playground/scores.txt");
-    ff.run();
+//    FileFun ff("/Users/str0be/git/playground/playground/playground/scores.txt");
+//    ff.run();
+
+//    MapFun mf("/Users/str0be/git/playground/playground/playground/scores.txt");
+//    mf.run();
+//    printf("%s has the following grade: %d\n", argv[1], mf.queryMap(argv[1]));
     
+
     return 0;
 }
 
