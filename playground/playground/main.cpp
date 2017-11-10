@@ -11,14 +11,15 @@
 #include "VecFun.hpp"
 #include "FileFun.hpp"
 #include "MapFun.hpp"
+#include "SetFun.hpp"
 
 using namespace std;
 
 
 int main(int argc, const char * argv[]) {
     
-//    VecFun vecTest;
-//    vecTest.run();
+    VecFun vecTest;
+    vecTest.run();
 
 //    FileFun ff("/Users/str0be/git/playground/playground/playground/scores.txt");
 //    ff.run();
@@ -27,7 +28,8 @@ int main(int argc, const char * argv[]) {
 //    mf.run();
 //    printf("%s has the following grade: %d\n", argv[1], mf.queryMap(argv[1]));
     
-
+//    SetFun setTest;
+//    setTest.run();
     return 0;
 }
 
