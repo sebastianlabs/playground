@@ -12,7 +12,7 @@
 
 using namespace std;
 
-void printOut(std::vector<int> print){
+void VecFun::printOut(std::vector<int> print){
     if(!print.empty()){
         vector<int>::iterator it = print.begin();
     
@@ -25,7 +25,7 @@ void printOut(std::vector<int> print){
     printf("\n");
 }
 
-void run(){
+void VecFun::run(){
     vector<int> vec1 = {1,2,3,4,5,6,7,8,9,10};
     vector <int> vec2 = vec1;
     
@@ -47,4 +47,9 @@ void run(){
     }
     printOut(vec1);
     printOut(vec2);
+    
+    itVec1 = std::find(vec1.begin(), vec1.end(), 6);
+    long pos = std::distance(vec1.begin(), itVec1);
+    printf("pos = %i\n", pos);
+
 }
