@@ -50,7 +50,7 @@ void VecFun::run(){
 //    printOut(vec2);
     
     itVec1 = std::find(vec1.begin(), vec1.end(), 6);
-    long pos = std::distance(vec1.begin(), itVec1);
+    int pos = std::distance(vec1.begin(), itVec1);
     printf("pos = %i\n", pos);
     
     //vec1.insert(++vec1.begin(), vec2.begin(), vec2.end());

@@ -14,6 +14,7 @@
 #include <string>
 #include <map>
 #include <fstream>
+#include <vector>
 
 using namespace std;
 

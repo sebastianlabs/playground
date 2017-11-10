@@ -10,7 +10,7 @@
 #define SetFun_hpp
 
 #include <stdio.h>
-using namespace std;
+
 
 class SetFun{
 public:
